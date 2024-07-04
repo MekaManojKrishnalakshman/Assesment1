@@ -50,7 +50,7 @@ const genres = [
 const drawerBg = "#0d253f";
 const textColor = "#01b4e4";
 const hoverBg = "#01b4e4";
-const hoverText = "#ffffff";
+const hoverText = "333333";
 const dividerColor = "#01b4e4";
 
 export default function PermanentDrawerLeft() {
@@ -92,7 +92,10 @@ export default function PermanentDrawerLeft() {
                 sx={{
                   "&:hover": {
                     backgroundColor: hoverBg,
-                    "& .MuiListItemIcon-root, & .MuiTypography-root": {
+                    "& .MuiListItemIcon-root": {
+                      color: textColor,
+                    },
+                    "& .MuiTypography-root": {
                       color: hoverText,
                     },
                   },
@@ -135,7 +138,10 @@ export default function PermanentDrawerLeft() {
                 sx={{
                   "&:hover": {
                     backgroundColor: hoverBg,
-                    "& .MuiListItemIcon-root, & .MuiTypography-root": {
+                    "& .MuiListItemIcon-root": {
+                      color: textColor,
+                    },
+                    "& .MuiTypography-root": {
                       color: hoverText,
                     },
                   },
