@@ -50,7 +50,7 @@ const genres = [
 const drawerBg = "#0d253f";
 const textColor = "#01b4e4";
 const hoverBg = "#01b4e4";
-const hoverText = "333333";
+const hoverText = "#333333";
 const dividerColor = "#01b4e4";
 
 export default function PermanentDrawerLeft() {
